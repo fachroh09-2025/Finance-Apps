@@ -1,22 +1,8 @@
-# app.py
-"""
-Budget vs. Actuals AI – Variance Analysis & Commentary
-Requirements:
- - streamlit
- - pandas
- - plotly
- - python-dotenv
- - openpyxl (pandas Excel engine)
- - groq (Groq Python SDK)
-Make sure you store your Groq API key in a .env file as GROQ_API_KEY
-"""
-
 import os
 from typing import Optional
 
 import streamlit as st
-import pandas as pd
-import numpy as np
+import pandas as pdimport numpy as np
 import plotly.express as px
 
 # load environment variables securely
