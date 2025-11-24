@@ -1,6 +1,7 @@
 streamlit
 pandas
-groq
+numpy
+plotly
 python-dotenv
 openpyxl
-plotly.express
+groq
