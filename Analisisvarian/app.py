@@ -1,9 +1,7 @@
-import os
-from typing import Optional
-
-import streamlit as st
-import pandas as pdimport numpy as np
+import pandas as pd
+import numpy as np
 import plotly.express as px
+import streamlit as st
 
 # load environment variables securely
 from dotenv import load_dotenv
